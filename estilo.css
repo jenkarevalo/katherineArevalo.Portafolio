@@ -74,20 +74,20 @@ html{
     border-radius: 40px;
 }
 .inicio .contenido-banner img{
-    margin-top: 40px;
+    margin-top: 30px;
     border: 10px solid #f18fd4;
     display: block;
     width: 80%;
     margin: auto;
-    border-radius: 100%;
+    border-radius: 90%;
 }
 .inicio .contenido-banner h1{
-    margin-top: 40px;
-    font-size: 42px;
+    margin-top: 35px;
+    font-size: 35px;
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: normal;
 }
 .inicio .contenido-banner .redes a{
@@ -223,6 +223,7 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
+
 }
 .skills .fila{
     display: flex;
@@ -249,7 +250,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #ee47b6;
+    background-color: #f34ace;
     position: absolute;
     top: 0;
     left: 0;
@@ -259,7 +260,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #ee47b6;
+    background-color: #f34ace;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -274,7 +275,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .trabajo{
@@ -283,7 +284,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .creatividad{
@@ -292,7 +293,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .dedicacion{
@@ -301,7 +302,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .proyect{
@@ -310,7 +311,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 85%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
@@ -446,7 +447,7 @@ html{
     margin: 10px;
     cursor: pointer;
 }
-.portfolio .galeria .proyecto img{
+.portfolio .galeria .proyecto source{
     width: 100%;
     display: block;
 }
@@ -536,7 +537,7 @@ html{
 .contacto button:hover .overlay{
     width: 100%;
 }
-.contacto .col img{
+/*.contacto .col img{
     width: 100%;
 }
 .contacto .col .info{
@@ -558,7 +559,7 @@ html{
     color: #f18fd4;
     display: inline-block;
     margin-right: 20px;
-}
+}*/
 footer{
     background-color: #252A2E;
     color: #fff;
@@ -656,7 +657,7 @@ footer .arriba{
     .portfolio .galeria .proyecto{
         max-width: 100%;
     }
-    .portfolio .galeria .proyecto img{
+    .portfolio .galeria .proyecto source{
         width: 100%;
     }
     .contacto .fila{
