@@ -17,16 +17,17 @@
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <a href="#">Katherine Arevalo</a>
+                <img src="img/ka.png" alt="" >
             </div>
             <nav id="nav">
                 <ul>
                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">PROFILE</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#courses" onclick="seleccionar()">COURSES</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#publicacion" onclick="seleccionar()">PUBLICACIONES</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -45,7 +46,8 @@
             <h2>Desarrolladora Web</h2>
             <div class="redes">
                 <a href="https://github.com/jenkarevalo"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/jenny-katherine-arevalo-rivera-5359105a/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/jenny-katherine-arevalo-rivera-5359105a/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://www.instagram.com/kathe.arevalo1/"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
@@ -54,18 +56,18 @@
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, yo soy Katherine Arevalo.</span> Profesional en ingeniería ambiental, 
-                especialista en seguridad y salud en el trabajo. Me gusta la tecnología, cuento 
-                con 1 año de experiencia en manejo de herramientas orientadas al trabajo, en 
+            <h2>Profile</h2>
+            <p><span>Hola, yo soy Katherine Arevalo.</span> Profesional en ingeniería ambiental,
+                especialista en seguridad y salud en el trabajo. Me gusta la tecnología, cuento
+                con 1 año de experiencia en manejo de herramientas orientadas al trabajo, en
                 proyectos de tecnología bajo metodologías ágiles como Scrum y jira, además
-                tengo conocimientos en Docker, Gitlab, GitHub, Kubernetes, Oracle VirtualBox, 
-                Base de Datos, mongoDB, DBeaver, Apache NetBeans, manejo de tecnologías Java, 
+                tengo conocimientos en Docker, Gitlab, GitHub, Kubernetes, Oracle VirtualBox,
+                Base de Datos, mongoDB, DBeaver, Apache NetBeans, manejo de tecnologías Java,
                 WSO2, WSO2 Integration Studio, Visual Studio Code, Idea Intellij, StarUML, Nodejs,
-                Loopback, Angular, Bootstrap, Materialize. 
-                Lenguajes de programación como JavaScript, Python, Java, C#, SQL. 
-                Sistemas operativos como Ubuntu, Linux, Windows, RedHat 8.4. 
-                Cuento con competencias en Trabajo en equipo, actitud de servicio, comunicación 
+                Loopback, Angular, Bootstrap, Materialize.
+                Lenguajes de programación como JavaScript, Python, Java, C#, SQL.
+                Sistemas operativos como Ubuntu, Linux, Windows, RedHat 8.4.
+                Cuento con competencias en Trabajo en equipo, actitud de servicio, comunicación
                 asertiva, capacidad de análisis, planificación y organización, siendo dinámica
                 e innovadora, con disposición a la formación continua.
             </p>
@@ -138,7 +140,8 @@
                 </div>
             </div>
             <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
+                <a href="Docs/HojaDeVidaJenny.pdf" download="HojaDeVidaJenny.pdf">
+                    Descargar CV <i class="fa-solid fa-download"></i></a>
                 <span class="overlay"></span>
             </button>
         </div>
@@ -148,86 +151,72 @@
     <section class="skills" id="skills">
         <div class="contenido-seccion">
             <h2>Skills</h2>
+
             <div class="fila">
-                <!-- Technical Skill -->
                 <div class="col">
-                    <h3>Technical Skills</h3>
-                    <div class="TechnicalSkills">
-                        <div class="Skill">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="contenedor-skills">
+                        <div class="skill">
                             <i class="fa-brands fa-python"></i>
                             <span>Python</span>
                         </div>
-                        <div class="Skill">
+                        <div class="skill">
                             <i class="fa-brands fa-java"></i>
                             <span>Java</span>
                         </div>
-                        <div class="Skill">
+                        <div class="skill">
                             <i class="fa-solid fa-c"></i>
                             <span>C#</span>
                         </div>
-                        <div class="Skill">
+                        <div class="skill">
                             <i class="fa-brands fa-js"></i>
                             <span>JavaScript</span>
                         </div>
-                        <div class="Skill">
+                        <div class="skill">
                             <i class="fa-solid fa-database"></i>
-                            <span>SQL, MySQL, ORACLE</span>
+                            <span>SQL, Mysql, Oracle</span>
                         </div>
-                        <div class="Skill">
+                        <div class="skill">
                             <i class="fa-brands fa-angular"></i>
                             <span>Angular</span>
                         </div>
-                        <div class="Skill">
+                        <div class="skill">
                             <i class="fa-brands fa-node-js"></i>
-                            <span>Node.js</span>
+                            <span>Nodejs</span>
                         </div>
-                        <div class="Skill">
+                        <div class="skill">
                             <i class="fa-brands fa-github"></i>
                             <span>GitHub, GitLab</span>
                         </div>
                     </div>
                 </div>
-                <!-- Professional Skills -->
+
                 <div class="col">
-                    <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Comunicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="contenedor-skills">
+                        <div class="skill">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <span>Comunicación Asertiva</span>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <span>Trabajo en Equipo</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>85%</span>
-                            </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-people-group"></i>
+                            <span>Trabajo en Equipo</span>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <span>Creatividad</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                            <span>Creatividad</span>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <span>Dedicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-laptop-file"></i>
+                            <span>Dedicación y Compromiso</span>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <span>Proyect Management</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>85%</span>
-                            </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-table-columns"></i>
+                            <span>Organizacion</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-face-smile"></i>
+                            <span>Colaboracion</span>
                         </div>
                     </div>
                 </div>
@@ -277,15 +266,76 @@
                         <h4>Junior DevOps</h4>
                         <span class="casa">Xmartgroup</span>
                         <span class="fecha">2020 - 2021</span>
-                        <p>Implementación de procesos Devops en los proyectos de la compañia, utilizando tecnologias como: Gitlab, Docker, Kubernetes.
+                        <p>Implementación de procesos Devops en los proyectos de la compañia, utilizando tecnologias
+                            como: Gitlab, Docker, Kubernetes.
                             Desarrollo de software utilizando tecnologías Java, wso2.
                             Conocimiento en linux, utilizando las distribuciones: Ubuntu, CentosOS, RedHat 8.4.
-                            Manejo de herramientas de desarrollo como: WSO2 Integration Studio, Visual Studio Code, Visual Studio .Net, Idea Intellij, 
+                            Manejo de herramientas de desarrollo como: WSO2 Integration Studio, Visual Studio Code,
+                            Visual Studio .Net, Idea Intellij,
                             Eclipse, Spring Tool Suite, React JS, NodeJS, JMeter.
-                            Conocimeintos en legusjes de programacion Python, Java, JavaScript. Bases de datos Oracle, MySQL, MongoDB.
-                            </p>
+                            Conocimeintos en legusjes de programacion Python, Java, JavaScript. Bases de datos Oracle,
+                            MySQL, MongoDB.
+                        </p>
                         <div class="conectord">
                             <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION COURSES -->
+    <section class="courses" id="courses">
+        <div class="contenido-seccion">
+            <h2>Courses</h2>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Cursos Realizados</h3>
+                    <div class="contenedor-course">
+                        <div class="course">
+                            <i class="fa-brands fa-python"></i>
+                            <span>MisionTIC 2022</span>
+                            <form action="img/DiplomaMisionFundamentos.png">
+                                <button class="certificado">Ver certificado</button>
+                            </form>
+                        </div>
+
+                        <div class="course">
+                            <i class="fa-brands fa-java"></i>
+                            <span>MisionTIC 2022</span>
+                            <form action="img/DiplomaMisionBasica.png">
+                                <button class="certificado">Ver certificado</button>
+                            </form>
+                        </div>
+                        <div class="course">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MisionTIC 2022</span>
+                            <form action="img/DiplomaMisionAppWeb.png">
+                                <button class="certificado">Ver certificado</button>
+                            </form>
+                        </div>
+                        <div class="course">
+                            <i class="fa-brands fa-angular"></i>
+                            <span>MisionTIC 2022</span>
+                            <form action="img/DiplomaMisionSoftware.png">
+                                <button class="certificado">Ver certificado</button>
+                            </form>
+                        </div>
+                        <div class="course">
+                            <i class="fa-brands fa-node-js"></i>
+                            <span>MisionTIC 2022</span>
+                            <form action="img/DiplomadoMisionHabilidadesProgramacion.png">
+                                <button class="certificado">Ver certificado</button>
+                            </form>
+                        </div>
+                        <div class="course">
+                            <i class="fa-brands fa-github"></i>
+                            <span>Platzi</span>
+                            <form action="https://platzi.com/p/KatheArevalo/">
+                                <button class="certificado">Ver certificados</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -296,7 +346,7 @@
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
+            <h2>Portfolio</h2>
             <div class="galeria">
                 <div class="proyecto">
                     <video widht="400" height="300" muted controls>
@@ -305,8 +355,10 @@
                     </video>
                     <div class="" align="center">
                         <h3>Hospitalizacion en casa</h3>
-                        <p style="text-align: justify;">Esta pagina web fue diseñada con el fin de poder implementarla en un Hospital o centro de salud.
-                            Se realizo de forma educativa, pero con las especificaciones de una pagina real. Se uso principalmente
+                        <p style="text-align: justify;">Esta pagina web fue diseñada con el fin de poder implementarla
+                            en un Hospital o centro de salud.
+                            Se realizo de forma educativa, pero con las especificaciones de una pagina real. Se uso
+                            principalmente
                             .Net core, C#, SQL Server, SQL Server Management, Azure Data Studio, Bootstrap.</p>
                     </div>
                 </div> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -318,8 +370,10 @@
                     </video>
                     <div class="" align="center">
                         <h3>Mascota Feliz</h3>
-                        <p style="text-align: justify;">Esta pagina meb ser realizo con el proposito de ser implementada en una Veterinaria.
-                            Se realizo de forma educativa, pero con las especificaciones de una pagina real. Se uso principalmente
+                        <p style="text-align: justify;">Esta pagina meb ser realizo con el proposito de ser implementada
+                            en una Veterinaria.
+                            Se realizo de forma educativa, pero con las especificaciones de una pagina real. Se uso
+                            principalmente
                             Node js, JavaScript, MongoDB, Loopback, Materialize.</p>
                     </div>
                 </div> &nbsp; &nbsp;
@@ -330,9 +384,27 @@
                     </video>
                     <div class="" align="center">
                         <h3>Propiedades Horizontales</h3>
-                        <p style="text-align: justify;">Esta pagina meb ser realizo con el proposito de ser implementada para conjuntos residenciales o propiedades horizontales.
-                            Se realizo de forma educativa, pero con las especificaciones de una pagina real. Se uso principalmente
+                        <p style="text-align: justify;">Esta pagina meb ser realizo con el proposito de ser implementada
+                            para conjuntos residenciales o propiedades horizontales.
+                            Se realizo de forma educativa, pero con las especificaciones de una pagina real. Se uso
+                            principalmente
                             Node js, JavaScript, MongoDB, Loopback, Materialize.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PUBLICATIONS-->
+    <section id="publicacion" class="publicacion">
+        <div class="contenido-seccion">
+            <h2>Publicaciones</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/libro.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Libro </h3>
+                        <p>Con Las Alas Rotas</p>
                     </div>
                 </div>
             </div>
@@ -367,7 +439,8 @@
         </a>
         <div class="redes">
             <a href="https://github.com/jenkarevalo"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/jenny-katherine-arevalo-rivera-5359105a/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/jenny-katherine-arevalo-rivera-5359105a/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
             <a href="https://www.instagram.com/kathe.arevalo1/"><i class="fa-brands fa-instagram"></i></a>
             <li>
                 <i class="fa-solid fa-mobile-screen"></i>
