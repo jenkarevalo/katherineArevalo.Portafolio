@@ -15,7 +15,7 @@
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <img src="img/ka.png" alt="" >
+                <img src="img/ka.png" alt="">
             </div>
             <nav id="nav">
                 <ul>
@@ -26,6 +26,7 @@
                     <li><a href="#courses" onclick="seleccionar()">COURSES</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
                     <li><a href="#publicacion" onclick="seleccionar()">PUBLICACIONES</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -55,16 +56,15 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Profile</h2>
-            <p><span>Hola, yo soy Katherine Arevalo.</span> Profesional en ingeniería ambiental,
-                especialista en seguridad y salud en el trabajo. Me gusta la tecnología, cuento
-                con 1 año de experiencia en manejo de herramientas orientadas al trabajo, en
-                proyectos de tecnología bajo metodologías ágiles como Scrum y jira, además
-                tengo conocimientos en Docker, Gitlab, GitHub, Kubernetes, Oracle VirtualBox,
-                Base de Datos, mongoDB, DBeaver, Apache NetBeans, manejo de tecnologías Java,
-                WSO2, WSO2 Integration Studio, Visual Studio Code, Idea Intellij, StarUML, Nodejs,
-                Loopback, Angular, Bootstrap, Materialize.
-                Lenguajes de programación como JavaScript, Python, Java, C#, SQL.
-                Sistemas operativos como Ubuntu, Linux, Windows, RedHat 8.4.
+            <p><span>Hola, yo soy Katherine Arevalo.</span> Profesional en Ingeniería Ambiental, 
+                especialista en seguridad y salud en el trabajo. Me gusta la tecnología, cuento 
+                con 1 año de experiencia en manejo de herramientas orientadas al trabajo, en 
+                proyectos de tecnología bajo metodologías ágiles, además tengo conocimientos en
+                Docker, Gitlab, GitHub, Oracle VirtualBox, Base de Datos, mongoDB, DBeaver, 
+                Apache NetBeans, manejo de tecnologías Java, Visual Studio Code, Idea Intellij, 
+                StarUML, Nodejs, Loopback, Angular, Bootstrap, Materialize.
+                Conocimientos en lenguajes de programación como JavaScript, Java, C#.
+                Sistemas operativos como Linux Ubuntu, RedHat 8.4, Windows.
                 Cuento con competencias en Trabajo en equipo, actitud de servicio, comunicación
                 asertiva, capacidad de análisis, planificación y organización, siendo dinámica
                 e innovadora, con disposición a la formación continua.
@@ -75,10 +75,6 @@
                 <div class="col">
                     <h3>Datos Personales</h3>
                     <ul>
-                        <li>
-                            <strong>Cumpleaños</strong>
-                            27-04-1989
-                        </li>
                         <li>
                             <strong>Teléfono</strong>
                             3168745308
@@ -230,6 +226,15 @@
                 <div class="col izquierda">
                     <h3>Educación</h3>
                     <div class="item izq">
+                        <h4><Tem>Tecnología</Tem> </h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2023 - 2025</span>
+                        <p>Análisis y Desarrollo de Software.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
                         <h4>MisionTIC 2022 </h4>
                         <span class="casa">Universidad Caldas</span>
                         <span class="fecha">2022</span>
@@ -261,18 +266,16 @@
                 <div class="col derecha">
                     <h3>Experiencia de trabajo</h3>
                     <div class="item der">
-                        <h4>Junior DevOps</h4>
+                        <h4>Auxiliar DevOps</h4>
                         <span class="casa">Xmartgroup</span>
-                        <span class="fecha">2020 - 2021</span>
-                        <p>Implementación de procesos Devops en los proyectos de la compañia, utilizando tecnologias
-                            como: Gitlab, Docker, Kubernetes.
-                            Desarrollo de software utilizando tecnologías Java, wso2.
-                            Conocimiento en linux, utilizando las distribuciones: Ubuntu, CentosOS, RedHat 8.4.
-                            Manejo de herramientas de desarrollo como: WSO2 Integration Studio, Visual Studio Code,
-                            Visual Studio .Net, Idea Intellij,
-                            Eclipse, Spring Tool Suite, React JS, NodeJS, JMeter.
-                            Conocimeintos en legusjes de programacion Python, Java, JavaScript. Bases de datos Oracle,
-                            MySQL, MongoDB.
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Apoyo en los proyectos de la compañía, utilizando tecnologías como: Gitlab,
+                            Docker. Desarrollo de software utilizando tecnologías Java, wso2. Desarrollo en
+                            linux, utilizando las distribuciones: Ubuntu. Manejo de herramientas de
+                            desarrollo como: WSO2 Integration Studio, Visual Studio Code, Visual Studio
+                            .Net, Idea Intellij. Conocimientos en lenguajes de programación JavaScript. Uso
+                            de bases de datos Oracle, MySQL, MongoDB. Instalación de software antes
+                            mencionados y otros.
                         </p>
                         <div class="conectord">
                             <div class="circulod"></div>
@@ -294,12 +297,19 @@
                     <div class="contenedor-course">
                         <div class="course">
                             <i class="fa-brands fa-python"></i>
+                            <span>Ciberseguridad de Google.</span>
+                            <form action="learning-proceso.jpg">
+                                <button class="certificado">Estudiando Actualmente</button>
+                            </form>
+                        </div>
+                        
+                        <div class="course">
+                            <i class="fa-brands fa-python"></i>
                             <span>MisionTIC 2022</span>
                             <form action="img/DiplomaMisionFundamentos.png">
                                 <button class="certificado">Ver certificado</button>
                             </form>
                         </div>
-
                         <div class="course">
                             <i class="fa-brands fa-java"></i>
                             <span>MisionTIC 2022</span>
@@ -411,23 +421,24 @@
 
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+        <form action="https://formspree.io/f/mnqyejev" method="POST">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" placeholder="Tú Nombre">
+                        <input type="text" placeholder="Número telefónico">
+                        <input type="text" placeholder="Dirección de correo" name="email">
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
     </section>
 
     <!-- footer -->
