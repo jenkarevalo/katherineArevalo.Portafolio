@@ -12,8 +12,8 @@ html{
 /* MENU */
 .contenedor-header{
     background: #1e2326;
-    position: fixed;
-    width: 80%;
+    position: relative;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 99;
@@ -60,8 +60,9 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondoHalloween.jpg);
+    /*background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(img/fondo.jpg);*/
+    background: url(img/fondoHalloween.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
